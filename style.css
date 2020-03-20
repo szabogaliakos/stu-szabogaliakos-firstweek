@@ -32,13 +32,32 @@
     background-size: cover;
 }
 
+#team-section{
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.top-space{
+    padding-top: 300px;
+}
+
+#team-footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #form-section{
+    padding-top: 100px;
     min-height: 100vh;
     background-color: cornflowerblue;
 }
 
 .form-inner{
-    padding-top: 150px;
     min-height: 500px;
 }
 
@@ -53,3 +72,4 @@
 #message{
     min-height: 300px;
 }
+
