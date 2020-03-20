@@ -1,0 +1,55 @@
+#landing-bg{
+    background-image: url("img/banner.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+#title-mg{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+.landing-mg{
+    margin-top: 30px;
+}
+.btn-outline-light{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1rem;
+    border-radius: 0%;
+}
+.nav-custom{
+    color: white;
+}
+.icon-container{
+    background-image: url("img/Container.png");
+    background-size: cover;
+}
+.services-img{
+    height: 80px;
+    width: 80px;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    background-image: url("img/Container.png");
+    background-size: cover;
+}
+
+#form-section{
+    min-height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.form-inner{
+    padding-top: 150px;
+    min-height: 500px;
+}
+
+.fa{
+    font-size: 25px;
+}
+
+.footer{
+    padding-top: 150px;
+}
+
+#message{
+    min-height: 300px;
+}
