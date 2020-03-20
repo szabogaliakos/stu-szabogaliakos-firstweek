@@ -32,6 +32,28 @@
     background-size: cover;
 }
 
+#clients-section{
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+#clients-header{
+    padding-bottom: 70px;
+}
+
+#clients-card1{
+    padding: 20px;
+}
+
+#clients-card2{
+    padding: 20px;
+}
+
+#clients-brands{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
 #team-section{
     padding-top: 100px;
     min-height: 100vh;
