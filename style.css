@@ -19,12 +19,11 @@
 .nav-custom{
     color: white;
 }
-.icon-container{
-    background-image: url("img/Container.png");
-    background-size: cover;
+
+#identity-section{
+    padding-top: 250px;
+    min-height: 100vh;
 }
-
-
 
 #services-section{
     padding-top: 100px;
@@ -32,8 +31,10 @@
 }
 
 .services-img{
-    background-color: rgba(0,0,0,.65);
-    border-radius: 1000rem;
+    background-color: rgba(0,0,0,1);
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
 }
 
 .parent{
