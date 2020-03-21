@@ -15,6 +15,10 @@
     padding-bottom: 100px;
 }
 
+#home-title-main{
+    margin-top: 20px
+}
+
 @media screen and (max-width: 600px) {
     #home-title-sub{
         font-size: 15px;
@@ -39,10 +43,13 @@
 }
 
 .btn-outline-light{
+    padding-top: 11px;
+    padding-bottom: 11px;
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 1rem;
     border-radius: 0%;
+    margin-top: 70px;
 }
 
 /* IDENTITY BRANDING SECTION */
@@ -109,6 +116,46 @@
 
 #clients-card2{
     padding: 20px;
+}
+
+.triangle-left{
+    position: relative;
+}
+
+.triangle-left:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -17.5px;
+    margin-left: -35px;
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+}
+
+.triangle-right{
+    position: relative;
+}
+
+.triangle-right:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -17.5px;
+    margin-right: -35px;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
 }
 
 .no-border{
